@@ -11,3 +11,6 @@ Usually I start with:
 - [scripts/10-install-cli-packages.sh](scripts/10-install-cli-packages.sh) - to install
   my favorite CLI packages using `pkgin`
 
+I'm testing restrictive firewall that filters BOTH output and input
+connections. See [firewall-out/](firewall-out/) for instructions.
+
