@@ -23,7 +23,7 @@ Helper scripts:
 As root run:
 ```shell
 cat rc.conf.add >> /etc/rc.conf
-find etc usr | cpio -pvdm /
+find etc usr | cpio -pvdm --owner root:wheel /
 ```
 
 Now you have to edit your new `/etc/npf.conf` and edit this part:
