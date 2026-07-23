@@ -11,6 +11,9 @@ For binary packages I usually start with:
 - [scripts/10-install-cli-packages.sh](scripts/10-install-cli-packages.sh) - to install
   my favorite CLI packages using `pkgin`
 
+Or I use [setup-binpkg.sh](setup-binpkg.sh) instead that installs and configures
+doas and installs essential CLI packages.
+
 However when using NetBSD-CURRENT I have to build packages from sources. In such
 case I use setup script [setup-pkgsrc.sh](setup-pkgsrc.sh).
 
